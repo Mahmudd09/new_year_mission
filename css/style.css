@@ -17,8 +17,10 @@
   border-radius: 16px;
   margin-top: 50px;
 }
-.banar_overlay {
-	background-color: #0202026e;
+.banar_overlay,
+.overlay {
+  background-color: #0202026e;
+  border-radius: 16px;
 }
 .banar_content {
   text-align: center;
@@ -277,10 +279,21 @@
   font-size: 20px;
   font-weight: 400;
 }
+
 .portfolio_image_area {
   margin-top: 48px;
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio_image_area .portfolio_image img {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.portfolio_image_area .portfolio_image img:hover {
+  opacity: 1;
 }
 /* ---------- newsletter */
 .newsletter {
@@ -322,18 +335,67 @@ form input {
   width: 648px;
 }
 form button {
-	position: absolute;
-	border-radius: 0px 50px 50px 0px;
-	background: #f00;
-	padding: 23px 56px;
-	border: none;
-	cursor: pointer;
-	right: 61px;
-	color: #fff;
-	font-family: Inter;
-	font-size: 20px;
-	font-weight: 600;
-	text-transform: capitalize;
-	top: -2px;
+  position: absolute;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 23px 56px;
+  border: none;
+  cursor: pointer;
+  right: 61px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  top: -2px;
 }
 /* ------------ end newsletter ---------- */
+/* -------- footer------ */
+footer {
+  margin-top: 120px;
+  background: #070211;
+  padding: 120px 140px;
+}
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.footer_top_left{
+  width: 400px;
+}
+.footer_top_left p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.footer_top_right > li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.footer_top_right li a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer_top_right li img {
+  margin-right: 16px;
+  vertical-align: middle;
+}
+.footer_middle {
+  margin-top: 50px;
+	text-align: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social_links {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	padding: 48px 0;
+}
+/* -------- end footer ------ */
