@@ -10,15 +10,16 @@
   max-width: 1320px;
   margin: 0 auto;
 }
-
+/* -------- banar area -------- */
 .banar_area {
-  background-image: url("../images/Banner_Image.png"),
-    linear-gradient(#e66465, #9198e5);
+  background-image: url("../images/Banner_Image.png");
   background-repeat: no-repeat;
   border-radius: 16px;
   margin-top: 50px;
 }
-
+.banar_overlay {
+	background-color: #0202026e;
+}
 .banar_content {
   text-align: center;
   width: 632px;
@@ -40,7 +41,8 @@
   font-size: 72px;
   font-weight: 900;
 }
-
+/* ---------- end banar area -------- */
+/* ----------- offer area --------- */
 .offer_content {
   text-align: center;
 }
@@ -70,6 +72,8 @@
   font-weight: 700;
   margin-bottom: 48px;
 }
+/* ------------ end offer area ----------- */
+/* ------------ welcome area ---------- */
 .welcome_area {
   background-image: url("../images/Vectorrr.png");
   background-repeat: no-repeat;
@@ -109,6 +113,8 @@
   border: none;
   background: none;
 }
+/* ---------- end welcome area-------- */
+/* ---------- party place ---------- */
 .party_place {
   background-image: linear-gradient(
     180deg,
@@ -140,6 +146,8 @@
   background-color: #f00;
   margin-top: 48px;
 }
+/* ----------- end party place area------- */
+/* ----------- coming soon ara ----------- */
 .coming_soon_area {
   display: flex;
   gap: 50px;
@@ -182,7 +190,9 @@
 .coming_soon_right_text img {
   margin-top: 40px;
 }
-.holyday_area{
+/* ----------- end coming soon area------------- */
+/* ----------- holyday sale area----------- */
+.holyday_area {
   margin-top: 120px;
 }
 .holyday_container {
@@ -217,21 +227,113 @@
   font-weight: 500;
 }
 .holyday_banar {
-	background-image: url('../images/Rectangle 2.png'),url('/images/Rectangle 1.png');
-	background-repeat: no-repeat;
-	background-position: bottom right ,top 50px right;
+  background-image: url("../images/Rectangle 2.png"),
+    url("/images/Rectangle 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top 50px right;
   position: relative;
 }
 
 .holyday_banar_content {
-	margin-top: 64px;
-	display: flex;
-	justify-content: start;
-	align-items: center;
+  margin-top: 64px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .discount {
-	position: absolute;
-	right: 277px;
-	top: 100px;
+  position: absolute;
+  right: 277px;
+  top: 100px;
 }
+/* -------- end holyday sale area */
+/* --------- poftfolio area */
+.portfolio_area {
+  margin-top: 120px;
+}
+.portfolio_text {
+  text-align: left;
+  max-width: 850px;
+}
+.portfolio_text h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.portfolio_text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio_text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.portfolio_image_area {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+/* ---------- newsletter */
+.newsletter {
+  margin-top: 120px;
+}
+.newsletter_main {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  max-width: 896px;
+  padding: 80px 200px;
+}
+.newsletter_text img {
+  margin-bottom: 40px;
+}
+.newsletter_text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.newsletter_text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+form {
+  margin-top: 48px;
+  position: relative;
+}
+form input {
+  position: relative;
+  padding: 25px 30px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  width: 648px;
+}
+form button {
+	position: absolute;
+	border-radius: 0px 50px 50px 0px;
+	background: #f00;
+	padding: 23px 56px;
+	border: none;
+	cursor: pointer;
+	right: 61px;
+	color: #fff;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	top: -2px;
+}
+/* ------------ end newsletter ---------- */
