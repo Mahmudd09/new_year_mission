@@ -167,10 +167,10 @@
   font-size: 20px;
   font-weight: 400;
 }
-.coming_soon_img_area img{
-   border: 15px solid #f00;
-   border-radius: 50%;
-   padding: 50px;
+.coming_soon_img_area img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 50px;
 }
 .coming_soon_right_text h3 {
   color: #f00;
@@ -179,6 +179,59 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.coming_soon_right_text img{
-    margin-top: 40px;
+.coming_soon_right_text img {
+  margin-top: 40px;
+}
+.holyday_area{
+  margin-top: 120px;
+}
+.holyday_container {
+  text-align: center;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.holyday_container h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.holyday_container h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 28px;
+}
+.holyday_container span {
+  color: #f00;
+}
+.holyday_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.holyday_banar {
+	background-image: url('../images/Rectangle 2.png'),url('/images/Rectangle 1.png');
+	background-repeat: no-repeat;
+	background-position: bottom right ,top 50px right;
+  position: relative;
+}
+
+.holyday_banar_content {
+	margin-top: 64px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.discount {
+	position: absolute;
+	right: 277px;
+	top: 100px;
 }
