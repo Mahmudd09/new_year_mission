@@ -248,7 +248,7 @@
 }
 .holyday_banar {
   background-image: url("../images/Rectangle 2.png"),
-    url("/images/Rectangle 1.png");
+    url("../images/Rectangle 1.png");
   background-repeat: no-repeat;
   background-position: bottom right, top 50px right;
   position: relative;
