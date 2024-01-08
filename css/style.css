@@ -114,6 +114,17 @@
   text-transform: uppercase;
   border: none;
   background: none;
+  margin-bottom: 50px;
+  padding: 16px;
+  transition: ease-in .5s;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.welcome_text button:hover{
+  color: #fff;
+  background-color: #f00;
+  border-radius: 16px;
+  padding: 16px;
 }
 /* ---------- end welcome area-------- */
 /* ---------- party place ---------- */
@@ -141,12 +152,19 @@
   color: #f00;
 }
 .party_place_text button {
-  color: #fff;
-  padding: 16px 32px;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	border: none;
+	background-color: #f00;
+	margin-top: 48px;
+	cursor: pointer;
+	transition: ease-in .5s;
+}
+.party_place_text button:hover{
+  background-color: rgb(80, 2, 2);
   border-radius: 8px;
-  border: none;
-  background-color: #f00;
-  margin-top: 48px;
+  color: #fff;
 }
 /* ----------- end party place area------- */
 /* ----------- coming soon ara ----------- */
@@ -288,9 +306,10 @@
 }
 
 .portfolio_image_area .portfolio_image img {
-  width: 100%;
-  opacity: 0.5;
-  cursor: pointer;
+	width: 100%;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: ease-in .5s;
 }
 .portfolio_image_area .portfolio_image img:hover {
   opacity: 1;
@@ -325,29 +344,32 @@
 }
 form {
   margin-top: 48px;
-  position: relative;
+  display: inline-flex;
 }
 form input {
-  position: relative;
   padding: 25px 30px;
   border-radius: 50px 0 0 50px;
   border: none;
   width: 648px;
 }
 form button {
-  position: absolute;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   padding: 23px 56px;
   border: none;
   cursor: pointer;
-  right: 61px;
   color: #fff;
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  top: -2px;
+  transition: ease-in .5s;
+}
+form button:hover{
+  background: #f00;
+  background-color: rgb(80, 2, 2);
+  border-radius: 0px 50px 50px 0px;
+  color: #fff;
 }
 /* ------------ end newsletter ---------- */
 /* -------- footer------ */
@@ -361,7 +383,7 @@ footer {
   justify-content: space-between;
   gap: 200px;
 }
-.footer_top_left{
+.footer_top_left {
   width: 400px;
 }
 .footer_top_left p {
@@ -388,14 +410,30 @@ footer {
 }
 .footer_middle {
   margin-top: 50px;
-	text-align: center;
-	border-top: 1px solid rgba(255, 255, 255, 0.15);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .social_links {
-	display: flex;
-	gap: 24px;
-	justify-content: center;
-	padding: 48px 0;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 48px 0;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.footer_bottom h5,
+.footer_bottom a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer_bottom a{
+  text-decoration: none;
 }
 /* -------- end footer ------ */
